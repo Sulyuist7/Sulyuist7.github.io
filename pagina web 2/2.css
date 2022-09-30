@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+#contenedor{ 
+    width: absolute;
+	height: absolute;
+   background-color: transparent;
+   overflow: hidden;
+   margin: auto;
+   position: absolute;
+   
+}
+.fondo{ 
+    top: 150px;
+    position: absolute;
+    background: transparent;
+    height: 255px;
+}
+.fondo img{
+    position: absolute;
+    left: 200px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 0px;
+    background-color: transparent;
+
+}
+.ambi{ 
+    position: relative;
+    background-color: hsla(240, 100%, 50%, 0.298);
+;
+    margin-top: 0px;
+    height: 600px;
+    width: 1345px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.ambi .logo img{
+    position: absolute;
+    height: 80px;
+    width: 350px;
+   left: 40px;
+   background-color: transparent;
+}
+.menu{
+    width: 100%;
+	height: 75px;
+	background: transparent;
+	position:absolute;
+	left: 0px;
+	top: 50px;
+    
+}
+.menu ul{
+list-style: none;
+margin: 0;
+padding: 0;
+float: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    font-weight:bold;
+    font-family: Georgia;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid black;
+    margin-right:50px;
+    
+
+}
+.menu ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+   
+}
+.caja{
+    position: relative;
+    width: 1350px;
+    height: 970px;
+    background-color: transparent;
+}
+.derecha{
+position: absolute;
+left: 10px;
+margin-top: 350px;
+background-color: darkgoldenrod;
+height: 240px;
+width: 120px;
+}
+.derecha img{
+    border-color: black;
+    border-style: solid;
+    left: 0px;
+   position: absolute;
+}
+.izquierda{
+    position: absolute;
+left: 1080px;
+top: 330px;
+background-color: rgb(37, 162, 50);
+height: 255px;
+width:255px;
+}
+.izquierda img{
+    border: 5px solid black;
+}
+.abajo{
+    top: 500px;
+    position: absolute;
+    right: 230px;
+    
+    background-color: transparent;
+}
+.ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+}
+.contedor{
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.titulo{
+    font-size: 35px;
+    text-align: center;
+    color:#09326d;
+    font-weight: 90px;
+    
+}
+.texto-d{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.servicos{
+    background: transparent;
+    top: 700px;
+    position: absolute;
+    height: 600px;
+    width: 900px;
+    left: 160px;
+        display: flex;
+        justify-content: space-evenly;
+}
+.servicioc{
+   display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 900px;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color:transparent;
+}
+.servicioi{
+    width: 28%;
+    height: 260px;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    background-color: hsla(240, 100%, 50%, 0.298);
+border: solid black;
+}
+.servicioi > img{
+    top: 30px;
+    display: block;
+    left: 35px;
+    height: 120px;
+    width: 170px;
+    margin-bottom: 80px;
+    position: absolute;
+   margin-left: 10px;
+   
+}
+
+.servicioi h1{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    top: 155px;
+    left: 20px;
+    color:#ffffff ;
+    
+
+}
+.servicioi p{
+    font-size: 20;
+    font-weight: 900;
+position: absolute;
+top: 198px;
+color: black;
+   
+}

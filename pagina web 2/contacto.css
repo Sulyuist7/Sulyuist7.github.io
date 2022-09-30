@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#contenedor{ 
+    width: absolute;
+	height: absolute;
+   background-color: transparent;
+   overflow: hidden;
+   margin: auto;
+   position: absolute;
+   
+}
+
+.contenedor1 {
+    width: 900px;
+    height: 400px;
+   top: 30px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+    position: absolute;
+    background-color: transparent;
+    left: 150px;
+}
+.about-us {
+    background: #f2f2f2;
+}
+
+.contenedor-articulo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-around;
+    position: relative;
+}
+.caja{
+    position: relative;
+    width: 1350px;
+    height: 770px;
+    background-color: hsla(240, 100%, 50%, 0.298);
+}
+
+.derecha{
+    position: absolute;
+    left: 10px;
+    margin-top: 200px;
+    background-color: transparent;
+    height: 240px;
+    width: 120px;
+    }
+    .derecha img{
+        border-color: black;
+        border-style: solid;
+        left: 0px;
+       position: absolute;
+    }
+    .izquierda{
+        position: absolute;
+    left: 1080px;
+    top: 200px;
+    background-color: transparent;
+    height: 255px;
+    width:255px;
+    }
+    .izquierda img{
+        border: 5px solid black;
+    }
+
+.articulo {
+    width: 19%;
+    background: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 30px 30px 60px 30px;
+    transition: 0.5s;
+    
+    position: relative;
+    
+
+}
+
+.articulo:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+}
+
+.articulo>i {
+    font-size: 30px;
+    color: rgb(151, 39, 39);
+    background: #14247e;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    position: absolute;
+}
+
+.articulo>h3 {
+    font-size: 24px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.articulo>p {
+    font-weight: 1000;
+    color: #5D6678;
+    margin-top: 130px;
+    padding-bottom: 0px;
+    height: 100px;
+    position: absolute;
+}
+
+.articulo>a {
+    
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    font-weight:bold;
+    font-family: Georgia;
+    margin-top: 300px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-right:0px;
+    position: absolute;
+}
+
+.articulo>a:hover {
+    color: #000000;
+    background-color: hsla(180, 100%, 50%, 0.415);
+    
+}
+
+
+
+.articulo {
+    height: 300px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.598);
+    height: 100px;
+    
+}
+
+.contenedora{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 0;
+}
+img{
+    margin-top: 10px;
+}
+
